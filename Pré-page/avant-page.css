@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    font-size: 17px;
+    color: white;
+    line-height: 1.6;
+}
+
+
+/* CSS de la pré-page avec l'image en fond d'écran + positionnement des élèments */
+#pre-page {
+    background-image: url(https://images.pexels.com/photos/12446438/pexels-photo-12446438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+
+/* CSS du texte h1 et p sur la prévention des effets de l'alcools. */
+#pre-page h1 {
+    font-size: 50px;
+}
+#pre-page p {
+    font-size: 20px;
+    color: red;
+    text-transform: capitalize;
+    font-weight: 900;
+    text-decoration:  underline orange;
+}
+
+
+/* CSS du 1er bouton qui renvoie vers écosia */
+#pre-page .button1 {
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    background: wheat;
+    color: orangered;
+    font-weight: 900;
+    border: red 5px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/* CSS du 2eme bouton qui envoie sur la page d'acceuil de notre site */
+#pre-page .button2 {
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    background: wheat;
+    color: orangered;
+    font-weight: 900;
+    border: green 5px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+/* CSS pour le survol des bouton */
+#pre-page .button1:hover ,.button2:hover{
+    transition: 0.2s;
+    transform: scale(1.10);
+    cursor: pointer;
+}
